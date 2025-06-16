@@ -1,0 +1,130 @@
+#footer-area {
+    height: 710px;
+    width: 100%;
+    background-size: cover;
+}
+
+.footer-cards {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.footer-cardone {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.message {
+    color: #fe5915;
+    font-size: 56px;
+}
+
+.footer-cardone .help {
+    font-size: 28px;
+    color: #fff;
+}
+
+.footer-cardone p {
+    font-size: 18px;
+    color: #888787;
+}
+
+.chat-button {
+    width: 130px;
+    height: 44px;
+    background: none;
+    color: #fff;
+    border: 5px solid #fff;
+    transition: .4s;
+}
+
+
+.chat-button:hover{
+    color: #fe5915;
+    border: 5px solid #fe5915;
+}
+
+.telephone-number {
+    color: #fe5915;
+    font-size: 35px;
+}
+
+.footer-input {
+    width: 350px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 20px;
+    outline: none;
+    transition: .4s;
+}
+
+
+.footer-input:hover{
+    border: 1px solid #fe5915;
+}
+
+.link-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+
+
+.linkcard1 h1{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.linkcard1 .footerlinks{
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+}
+
+.linkcard1 .footerlinks li{
+    color: #888787;
+    font-size: 17px;
+    transition: .4s;
+}
+
+.linkcard1 .footerlinks li:hover{
+    color: #fe5915;
+}
+
+
+.footer-icons{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 60px;
+}
+
+.footer-icons .icon-div{
+    border: 2px solid #888787;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+.footer-icon{
+    color: #fff;
+}
+
+.year{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.year p{
+  color: #fff;
+}

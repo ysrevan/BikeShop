@@ -1,0 +1,15 @@
+#fivepicturehome{
+    height: 345px;
+    background-color: #fe5915;
+    display: flex;
+    align-items: center;
+}
+
+.fivepicturecards{
+    display: flex;
+}
+
+.brandimgbox{
+    width: 265px;
+    height: 130px;
+}

@@ -1,0 +1,35 @@
+.wrapper-box{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.user ,.heart , .basket{
+    color: #fff;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.search{
+    width: 200px;
+    height: 25px;
+    padding-left: 10px;
+    border: 2px solid #FE5915;
+    background: none;
+    outline: none;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.user:hover{
+    color: #fe5915;
+}
+
+.heart:hover{
+    color: #fe5915;
+}
+
+.basket:hover{
+    color: #fe5915;
+}

@@ -1,0 +1,102 @@
+.threecards {
+    display: flex;
+}
+
+
+.threecardone,
+.threecardtwo,
+.threecardthree {
+    width: 450px;
+    height: 330px;
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    transition: background-position 0.6s ease, transform 0.6s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+
+.threecardone:hover,
+.threecardtwo:hover,
+.threecardthree:hover {
+    background-position: left center;
+}
+
+.singletrack ,.trail,.road{
+    color: #fff;
+    font-size: 50px;
+}
+
+.cardonetext{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+
+.cardtwotext{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+
+.cardthreetext{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+.cardonetext ,.cardtwotext,.cardthreetext p{
+  color: #fe5915;
+}
+
+.learn{
+    height: 50px;
+    width: 130px;
+    background-color: #fe5915;
+    border: none;
+    color: #fff;
+    transition: .4s;
+}
+
+.learn:hover{
+    background-color: #000;
+}
+
+.discover{
+    height: 50px;
+    width: 150px;
+    background-color: #fff;
+    border: none;
+    transition: .4s;
+}
+
+.discover:hover{
+    background-color: #fe5915;
+    color: #fff;
+}
+
+.shop{
+    height: 50px;
+    width: 130px;
+    background-color: #fe5915;
+    border: none;
+    color: #fff;
+    transition: .4s;
+}
+
+.shop:hover{
+    background-color: #000;
+}
