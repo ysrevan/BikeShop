@@ -35,6 +35,7 @@
 
 .leftnews .leftnewsphotobox p{
     color: #888787;
+    font-size: 18px;
   }
 
   .rightnews{
@@ -53,3 +54,5 @@
     align-items: center;
    
   }
+
+  
