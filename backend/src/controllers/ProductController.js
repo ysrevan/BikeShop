@@ -3,13 +3,14 @@ import product from "../models/ProductModel.js";
 
 export const addProduct = async (req, res) => {
   try {
-    const { title, category, price } = req.body;
+    const { title, category,description, price } = req.body;
 
     const imageUrl = `images/${req.file.filename}`.replace(/\\/g, "/");
 
     const newProduct = new product({
       title,
       category,
+      description,
       price,
       image: imageUrl,
     });
