@@ -4,10 +4,12 @@ import "./src/db/Connection.js"
 import productRouter from "./src/routes/ProductRouter.js"
 import blogRouter from "./src/routes/BlogRouter.js"
 import homeproductRouter from "./src/routes/HomeProductRouter.js"
+import cors from 'cors'
 const app = express()
 const port = process.env.PORT || 5001
 
 app.use(express.json()); 
+app.use(cors())
 app.use("/api/products", productRouter);
 app.use("/api/blogs/",blogRouter);
 app.use("/api/homeproducts",homeproductRouter)
