@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getBlogs } from '../../redux/blogSlice'
-
+import './Blognews.css'
 function Blognews() {
 
     let {blogs} = useSelector((state)=>state.blogs)
@@ -15,7 +15,7 @@ function Blognews() {
     console.log(blogs);
     
   return (
-    <section>
+    <section id='blognew'>
       <div className="mycontainer">
         <div className="blognewsbox">
           {
