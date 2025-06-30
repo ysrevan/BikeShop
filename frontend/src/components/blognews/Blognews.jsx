@@ -12,7 +12,7 @@ function Blognews() {
        dispatch(getBlogs())
     },[dispatch])
 
-    console.log(blogs);
+   
     
   return (
     <section id='blognew'>
@@ -20,13 +20,13 @@ function Blognews() {
         <div className="blognewsbox">
           {
             blogs && blogs.map((blog)=>(
-              <div className="blognew">
+              <div className="blognew" key={blog._id}>
             <div className="blognewimage">
             <img src={`http://localhost:5000/${blog.image}`} alt="" />
             </div>
 
             <div className="blognewtext">
-            <p className='new-date'>{blog.date}</p>
+            <p className='new-date'>{blog.date} / By Admin</p>
               <h1 className='new-title'>{blog.title}</h1>
               <p className='new-desc'>{blog.description}</p>
             </div>

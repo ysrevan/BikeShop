@@ -11,6 +11,11 @@
    gap: 10px;
 }
 
+.homeproductcard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
+}
+
 .check{
     color: #fe5915;
     margin-bottom: 10px;
@@ -58,4 +63,11 @@
 .add-btn:hover{
     background-color: #fe5915;
     color: #fff;
+}
+
+.wishlistheart{
+    font-size: 20px;
+   position: absolute;
+   top: 15px;
+   left: 350px;
 }

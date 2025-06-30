@@ -14,7 +14,8 @@
     max-width: calc(33.333% - 20px);
     box-sizing: border-box; 
     padding: 15px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    position: relative;
   }
   
   
@@ -83,3 +84,9 @@
     color: #fff;
   }
   
+  .shopwishlistheart{
+    font-size: 20px;
+   position: absolute;
+   top: 20px;
+   left: 340px;
+}

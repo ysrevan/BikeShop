@@ -4,7 +4,7 @@
 
 .twocardkids,
 .twocardaccessories {
-    width: 675px;
+    width: 875px;
     height: 499px;
     background-size: 120%;
     background-position: left center;
@@ -50,3 +50,6 @@
     background-color: #fe5915;
     color: #fff;
 }
+
+/* 675px .twocardkids,
+.twocardaccessories */

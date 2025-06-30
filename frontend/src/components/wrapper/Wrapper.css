@@ -33,3 +33,20 @@
 .basket:hover{
     color: #fe5915;
 }
+
+.basket-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.basket-count {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background-color: #FE5915;
+    color: white;
+    font-size: 15px;
+    padding: 2px 5px;
+    border-radius: 50%;
+    font-weight: bold;
+}
