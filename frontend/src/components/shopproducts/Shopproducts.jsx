@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { getProducts } from '../../redux/shopproductSlice'
+import { getProducts, searchProduct } from '../../redux/shopproductSlice'
 import { useDispatch, useSelector } from 'react-redux'
 import './Shopproducts.css'
 import Button from '../utils/Button'
@@ -33,7 +33,11 @@ function Shopproducts() {
   return (
     <section id='shopproducts'>
       <div className='mycontainer'>
+     <div className="searchsortbox">
+     <input type="text" className='search' onChange={(e)=>dispatch(searchProduct(e.target.value))}/>
+     </div>
       <div className="shopproductsbox">
+     
       {
   currentProducts.map((product) => {
     const existProduct = wishlist.find(item => item._id === product._id)

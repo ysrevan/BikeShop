@@ -48,3 +48,21 @@ export const deleteProduct = async (req, res) => {
     return res.status(500).json({ message: error.message });
   }
 };
+
+export const searchProduct = async (req, res) => {
+  const { title } = req.params;
+
+  try {
+    const products = await product.find({
+      title: { $regex: title, $options: "i" },
+    });
+
+    if (!products) {
+      return res.status(404).json({ message: "No products found" });
+    }
+
+    return res.status(200).json(products);
+  } catch (error) {
+    return res.status(500).json({ message: error.message });
+  }
+};

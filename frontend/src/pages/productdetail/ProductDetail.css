@@ -48,7 +48,7 @@
     line-height: 1.6;
   }
   
-  .detail-text p:last-child {
+  .detail-text .detailprice {
     font-size: 22px;
     font-weight: bold;
     color: #fe5915;
@@ -59,4 +59,43 @@
     top: 55px;
     left: 500px;
     font-size: 20px;
+  }
+
+  .detailactions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .detailadd{
+    width: 180px;
+    height: 40px;
+    font-size: 16px;
+    border: 2px solid #fe5915;
+    background-color: #fe5915;
+    border-radius: 7px;
+    transition: .4s;
+    color: #fff;
+  }
+
+  .detailadd:hover{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000
+  }
+
+  .detailcount{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .detailcount button{
+    width: 40px;
+    height: 30px;
+    font-size: 20px;
+    border: 2px solid #fe5915;
+    background-color: #fe5915;
+    border-radius: 7px;
+    color: #fff;
   }

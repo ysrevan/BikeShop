@@ -13,7 +13,6 @@ let basketcount = basket.reduce((sum,item)=>sum+item.count,0)
 
   return (
     <div className='wrapper-box'>
-        <input type="text" className='search'/>
         <LuUserRound  className='user'/>
        <Link to='/wishlist'> <IoIosHeartEmpty   className='heart'/></Link>
        <div className="basket-wrapper">

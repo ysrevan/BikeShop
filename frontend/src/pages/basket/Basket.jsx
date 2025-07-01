@@ -4,6 +4,7 @@ import './Basket.css'
 import { clearBasket, decrement, increment, removeBasket } from '../../redux/basketSlice'
 import emptybasket from '../../assets/images/shopping_cart_clip_art_preview.webp'
 import Button from '../../components/utils/Button'
+import Basketpage from '../../components/pageheader/Basketpage'
 
 function Basket() {
   const { basket } = useSelector((state) => state.basket)
@@ -12,7 +13,9 @@ function Basket() {
   const totalprice = basket.reduce((sum, item) => sum + item.count * item.price, 0)
 
   return (
-    <section id='basket'>
+      <>
+      <Basketpage/>
+        <section id='basket'>
       <div className="mycontainer">
         <div className="basketcardbox">
 
@@ -54,6 +57,7 @@ function Basket() {
         )}
       </div>
     </section>
+      </>
   )
 }
 

@@ -90,3 +90,18 @@
    top: 20px;
    left: 340px;
 }
+
+.searchsortbox{
+  margin-bottom: 20px;
+}
+
+.search{
+  width: 300px;
+  height: 35px;
+  padding-left: 10px;
+  border: 2px solid #FE5915;
+  background: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 15px;
+}

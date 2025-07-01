@@ -4,16 +4,19 @@ import './Wishlist.css'
 import { addWishlist, clearWishlist } from '../../redux/wishlistSlice'
 import { FaHeart } from "react-icons/fa6";
 import Button from '../../components/utils/Button';
+import Wishlistpage from '../../components/pageheader/Wishlistpage';
 function Wishlist() {
 
   let { wishlist } = useSelector((state) => state.wishlist)
   let dispatch = useDispatch()
 
-  console.log(wishlist);
+ 
   
 
   return (
-    <section id='wishlist'>
+    <>
+<Wishlistpage/>
+<section id='wishlist'>
        <div className="mycontainer">
         <div className="wishlistcardbox">
 
@@ -45,6 +48,8 @@ function Wishlist() {
         </div>
         </div>
     </section>
+
+    </>
   )
 }
 
