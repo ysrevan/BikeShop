@@ -55,3 +55,102 @@
     align-items: center;
     justify-content: center;
 }
+
+/* 1024px və aşağı */
+@media (max-width: 1024px) {
+    .bikeshares {
+      flex-direction: row;
+      align-items: center;
+      gap: 40px;
+    }
+  
+    .wheelcard,
+    .helmetcard,
+    .solidcard {
+      width: 30%;
+    }
+  
+    .ride-text .facilities {
+      font-size: 48px;
+    }
+  
+    .overhaul,
+    .accessories,
+    .delivery {
+      font-size: 24px;
+    }
+  
+    .wheelcard p,
+    .helmetcard p,
+    .solidcard p {
+      font-size: 18px;
+    }
+  
+    .wheeliconbox,
+    .helmeticonbox,
+    .solidiconbox {
+      width: 90px;
+      height: 90px;
+    }
+  
+    .wheelicon,
+    .helmeticon,
+    .solidicon {
+      font-size: 48px;
+    }
+  
+    #ride {
+      padding-top: 80px;
+      padding-bottom: 80px;
+    }
+  }
+  
+  /* 600px və aşağı */
+  @media (max-width: 600px) {
+    .bikeshares {
+      flex-direction: column;
+      align-items: center;
+      gap: 25px;
+    }
+  
+    .wheelcard,
+    .helmetcard,
+    .solidcard {
+      width: 85%;
+    }
+  
+    .ride-text .facilities {
+      font-size: 38px;
+    }
+  
+    .overhaul,
+    .accessories,
+    .delivery {
+      font-size: 20px;
+    }
+  
+    .wheelcard p,
+    .helmetcard p,
+    .solidcard p {
+      font-size: 16px;
+    }
+  
+    .wheeliconbox,
+    .helmeticonbox,
+    .solidiconbox {
+      width: 75px;
+      height: 75px;
+    }
+  
+    .wheelicon,
+    .helmeticon,
+    .solidicon {
+      font-size: 36px;
+    }
+  
+    #ride {
+      padding-top: 70px;
+      padding-bottom: 70px;
+    }
+  }
+  

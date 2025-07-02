@@ -1,4 +1,4 @@
-/* === SLIDE KEÇİDİ BUTTONLARI === */
+
 .nav-btn {
   position: absolute;
   top: 50%;
@@ -32,7 +32,6 @@
   right: 20px;
 }
 
-/* === ANA HERO SAHƏSİ === */
 .hero {
   position: relative;
   width: 100%;
@@ -42,7 +41,7 @@
   color: white;
 }
 
-/* === SLIDE ANİMASİYA KEÇİDİ === */
+
 .slide-content {
   position: absolute;
   top: 0;
@@ -66,7 +65,7 @@
   z-index: 1;
 }
 
-/* === SLIDE 1 === */
+
 .slide1-layout {
   display: flex;
   align-items: center;
@@ -139,7 +138,7 @@
   border: 4px solid #fff;
 }
 
-/* === SLIDE 2 & 3 (ORTADA MƏTN) === */
+
 .center-content {
   display: flex;
   align-items: center;

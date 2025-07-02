@@ -105,3 +105,84 @@
 /* 450px   threecardone,
 .threecardtwo,
 .threecardthree */
+
+/* 1024px və aşağı */
+@media (max-width: 1024px) {
+    .threecards {
+      flex-direction: row; /* default ola bilər, ya da lazım gələrsə dəyiş */
+      align-items: center;
+      gap: 25px; /* biraz daha aralıq */
+    }
+  
+    .threecardone,
+    .threecardtwo,
+    .threecardthree {
+      width: 30%; /* 3 kart yan yana qalır */
+      height: 320px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .cardonetext,
+    .cardtwotext,
+    .cardthreetext {
+      width: 90%;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .singletrack,
+    .trail,
+    .road {
+      font-size: 45px;
+    }
+  
+    .learn,
+    .discover,
+    .shop {
+      width: 120px;
+      height: 45px;
+      font-size: 16px;
+    }
+  }
+  
+  /* 600px və aşağı */
+  @media (max-width: 600px) {
+    .threecards {
+      flex-direction: column;
+      align-items: center;
+      gap: 18px;
+    }
+  
+    .threecardone,
+    .threecardtwo,
+    .threecardthree {
+      width: 85%;
+      height: 280px;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    .cardonetext,
+    .cardtwotext,
+    .cardthreetext {
+      width: 80%;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .singletrack,
+    .trail,
+    .road {
+      font-size: 38px;
+    }
+  
+    .learn,
+    .discover,
+    .shop {
+      width: 110px;
+      height: 42px;
+      font-size: 15px;
+    }
+  }
+  

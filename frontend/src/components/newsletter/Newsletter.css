@@ -65,3 +65,79 @@
   .subscribebutton:hover{
     background-color: #000;
   }
+
+  /* 1024px və aşağı */
+@media (max-width: 1024px) {
+  #newsletter-section {
+    height: auto;
+    flex-direction: row;
+    padding: 50px 40px;
+    text-align: left;
+  }
+
+  .newsletterarea {
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  .overlay-image-left {
+    max-width: 350px;
+  }
+
+  .newsletterheader {
+    font-size: 42px;
+  }
+
+  .newsletteremail {
+    width: 350px;
+  }
+
+  .subscribebutton {
+    width: 150px;
+    margin-top: 0;
+  }
+
+  .newsletterinput {
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+}
+
+/* 600px və aşağı */
+@media (max-width: 600px) {
+  #newsletter-section {
+    height: auto;
+    flex-direction: column;
+    padding: 35px 25px;
+    text-align: center;
+  }
+
+  .newsletterarea {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .overlay-image-left {
+    max-width: 280px;
+  }
+
+  .newsletterheader {
+    font-size: 32px;
+  }
+
+  .newsletteremail {
+    width: 280px;
+  }
+
+  .subscribebutton {
+    width: 140px;
+    margin-top: 10px;
+  }
+
+  .newsletterinput {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+}
